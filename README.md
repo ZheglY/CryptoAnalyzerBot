@@ -13,6 +13,19 @@
 - 🗃️ **Работа с базой данных** SQLite через SQLAlchemy
 - 🌐 **Интеграция с CoinGecko API**
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/coin_info.png" alt="Main Menu" width="250" height="400"" />
+  <img src="screenshots/download_screen.png" alt="Help Command" width="300" height="400"" />
+  <img src="screenshots/coin_info_2.png" alt="Request Example" width="250" height="400"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/settings_screen.png" width="400" />
+  <img src="screenshots/start_screen.png" width="400" />
+</p>
+
 ## 🏗️ Структура проекта
 ```
 CryptoAnalyzerBot/
