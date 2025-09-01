@@ -1,0 +1,535 @@
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:44:30,831 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 15:44:30,892 | Создание нового пользователя в get_or_create_user()
+ERROR | bot_logger.middleware.middleware | 2025-08-14 15:44:30,905 | Middleware error: (sqlite3.IntegrityError) UNIQUE constraint failed: users.tg_id
+[SQL: INSERT INTO users (tg_id, currency, feedback) VALUES (?, ?, ?)]
+[parameters: (7684033190, 'USD', '')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:44:30,907 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 15:44:40,739 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 15:44:45,869 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 15:44:46,696 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 15:44:46,709 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:44:49,134 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 15:44:49,142 | Создание нового пользователя в get_or_create_user()
+ERROR | bot_logger.middleware.middleware | 2025-08-14 15:44:49,144 | Middleware error: (sqlite3.IntegrityError) UNIQUE constraint failed: users.tg_id
+[SQL: INSERT INTO users (tg_id, currency, feedback) VALUES (?, ?, ?)]
+[parameters: (7684033190, 'USD', '')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:44:49,145 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 15:50:17,903 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 15:50:20,843 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 15:50:21,357 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 15:50:21,364 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-14 15:50:31,016 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 15:50:33,323 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 15:50:33,720 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 15:50:33,726 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:41,024 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 15:50:41,036 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:41,265 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:41,265 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:44,524 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:44,677 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:44,677 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:46,178 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:46,426 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:46,426 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:47,510 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:47,841 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:47,841 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:49,225 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:49,429 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:49,429 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:51,032 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:51,168 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:51,169 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:51,972 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.settings_handlers | 2025-08-14 15:50:51,973 | Изменение валюты на EUR
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:52,227 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:50:52,227 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:48,354 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:48,968 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:48,969 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:49,759 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:50,329 | After handler | State: FeedbackState:get_feedback
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:50,329 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:53,294 | Before handler | State: FeedbackState:get_feedback
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:53,624 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 15:52:53,624 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:42,842 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:43,205 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:43,205 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:50,858 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:50,992 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:23:50,992 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 20:29:24,215 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 20:29:27,438 | env file variables loaded
+DEBUG | bot_logger.config.bot_config | 2025-08-14 20:30:25,493 | env file variables loaded
+DEBUG | bot_logger.config.bot_config | 2025-08-14 20:30:41,041 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 20:30:41,467 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 20:30:41,472 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:53,911 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 20:30:53,920 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:54,186 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:54,186 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:56,146 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:56,341 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:56,341 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:57,714 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 20:30:57,717 | Текущая валюта None | portfolio_add_coins
+ERROR | bot_logger.middleware.middleware | 2025-08-14 20:30:57,718 | Middleware error: 'NoneType' object has no attribute 'lower'
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:30:57,718 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 20:34:50,501 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 20:34:52,874 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 20:34:53,276 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 20:34:53,281 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:34:59,241 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 20:34:59,250 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:34:59,541 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:34:59,542 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:02,337 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:02,469 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:02,469 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:03,426 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 20:35:03,431 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 20:35:03,850 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:04,008 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 20:35:04,008 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 21:33:11,383 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 21:33:13,510 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 21:33:13,937 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 21:33:13,943 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:02,782 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:03,026 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:03,027 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:04,268 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:04,423 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:04,423 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:06,300 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:06,467 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:06,467 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:07,085 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:07,372 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:07,372 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:08,270 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:08,491 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:34:08,491 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:29,831 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:29,986 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:29,986 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:31,782 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 21:38:31,795 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 21:38:32,168 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:32,301 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:38:32,302 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 21:52:39,445 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 21:52:41,683 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 21:52:42,136 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 21:52:42,142 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:49,052 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 21:52:49,062 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:49,270 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:49,270 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:56,457 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:56,586 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:56,587 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:57,482 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 21:52:57,487 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 21:52:57,854 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:57,999 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:52:57,999 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:27,788 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:28,074 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:28,074 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:29,797 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:29,799 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:29,799 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:31,953 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:32,266 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:53:32,266 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 21:55:21,213 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 21:55:23,355 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 21:55:23,785 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 21:55:23,792 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:25,496 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:25,744 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:25,744 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:27,849 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:28,048 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:28,048 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:28,780 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 21:55:28,791 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 21:55:29,320 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:29,790 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:29,790 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:30,499 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:30,890 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:30,890 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:31,791 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:32,217 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:55:32,218 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:49,173 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:49,336 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:49,336 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:51,283 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.services.portfolio_service | 2025-08-14 21:56:51,288 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 21:56:51,693 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:51,829 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:51,830 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:52,462 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:52,718 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:52,718 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:53,224 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:53,612 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:53,612 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:53,899 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:54,294 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:54,294 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:58,433 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:58,580 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 21:56:58,580 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:07:13,385 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:07:15,628 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:07:16,098 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:07:16,102 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:22,162 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:22,494 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:22,494 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:24,996 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:07:25,007 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:07:25,382 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:25,528 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:25,528 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:27,476 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:27,813 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:27,813 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:32,887 | Before handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:33,020 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:07:33,021 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:09:16,596 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:09:18,689 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:09:19,095 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:09:19,101 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:21,814 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:22,089 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:22,089 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:25,718 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:25,952 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:25,953 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:26,756 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:09:26,765 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:09:27,149 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:27,291 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:27,291 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:28,330 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:28,500 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:28,500 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:31,596 | Before handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:31,701 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:09:31,701 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:15:14,597 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:15:16,806 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:15:17,229 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:15:17,234 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:25,743 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:25,993 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:25,993 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:38,361 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 22:15:38,368 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:38,462 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:38,462 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:39,890 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:40,210 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:40,210 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:41,412 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:15:41,416 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:15:41,789 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:41,937 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:41,938 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:43,271 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:43,408 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:43,408 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:48,264 | Before handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:48,384 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:15:48,384 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:18:13,573 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:18:15,819 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:18:16,247 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:18:16,253 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:21,546 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 22:18:21,559 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:21,758 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:21,758 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:22,832 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:23,005 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:23,006 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:23,788 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:18:23,793 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:18:24,168 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:24,291 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:24,292 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:25,738 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:18:25,740 | Выбор монеты по кнопке
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:26,089 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:18:26,089 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:19:03,470 | Before handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:19:03,588 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:19:03,588 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:25:29,041 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:25:31,200 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:25:31,655 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:25:31,660 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:03,229 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:03,478 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:03,478 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:15,147 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:15,379 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:15,379 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:16,006 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:26:16,019 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:26:16,406 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:16,701 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:16,701 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:18,163 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:26:18,166 | Выбор монеты по кнопке
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:18,380 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:18,380 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:21,664 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:26:21,665 | Ввод количества монет | save_coin_handler
+ERROR | bot_logger.middleware.middleware | 2025-08-14 22:26:21,743 | Middleware error: add_asset_handler() missing 1 required positional argument: 'state'
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:21,743 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:26:46,144 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:26:48,268 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:26:48,692 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:26:48,698 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:52,460 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:26:52,465 | Выбор монеты по кнопке
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:52,796 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:52,796 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:55,838 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:26:55,839 | Ввод количества монет | save_coin_handler
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:26:55,920 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:26:56,116 | Отправлен API запрос на получение 10 топовых монет
+ERROR | bot_logger.middleware.middleware | 2025-08-14 22:26:56,123 | Middleware error: 'Message' object has no attribute 'message'
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:26:56,123 | Session closed
+INFO | bot_logger.__main__ | 2025-08-14 22:34:38,393 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-14 22:34:40,568 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-14 22:34:40,984 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-14 22:34:40,988 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:48,521 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:48,753 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:48,753 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:51,466 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-14 22:34:51,474 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:51,627 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:51,628 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:52,588 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:52,805 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:52,805 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:53,651 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:34:53,656 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:34:54,071 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:54,210 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:54,210 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:55,211 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:34:55,214 | Выбор монеты по кнопке
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:55,347 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:55,348 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:58,282 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-14 22:34:58,283 | Ввод количества монет | save_coin_handler
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:58,709 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:34:58,709 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:41:12,055 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-14 22:41:12,059 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-14 22:41:12,509 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:41:12,642 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-14 22:41:12,642 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:01,250 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:01,484 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:01,484 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:02,647 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:02,997 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:02,998 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:04,536 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.services.portfolio_service | 2025-08-15 01:21:04,561 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 01:21:04,980 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:05,109 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:05,109 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:06,457 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:21:06,459 | Выбор монеты по кнопке
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:06,576 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:21:06,576 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 01:31:55,194 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 01:31:58,731 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 01:31:59,584 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 01:31:59,594 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:19,853 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-15 01:32:19,861 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:20,146 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:20,147 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:21,386 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:21,636 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:21,636 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:22,490 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 01:32:22,494 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 01:32:22,879 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:23,103 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:23,104 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:24,730 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:32:24,732 | Выбор монеты по кнопке | bitcoin
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:25,158 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:25,158 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:41,717 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:32:41,719 | Выбор монеты по кнопке | dogecoin
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:42,431 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:42,431 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:59,384 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:32:59,386 | Выбор монеты по кнопке | bitcoin
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:59,714 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:32:59,715 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 01:38:49,642 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 01:38:51,913 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 01:38:52,356 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 01:38:52,362 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:38:53,862 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 01:38:53,872 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 01:38:54,295 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:38:54,533 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:38:54,533 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:38:56,714 | Before handler | State: SearchCoins:search_coins
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:38:56,717 | Выбор монеты по кнопке | bitcoin
+ERROR | bot_logger.middleware.middleware | 2025-08-15 01:38:57,021 | Middleware error: 'EUR'
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:38:57,022 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 01:40:31,562 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 01:40:33,852 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 01:40:34,305 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 01:40:34,311 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:40:34,521 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:40:34,524 | Выбор монеты по кнопке | bitcoin
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:40:35,072 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:40:35,072 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:41:32,013 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:41:32,016 | Выбор монеты по кнопке | staked-ether
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:41:32,469 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:41:32,469 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 01:46:55,294 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 01:46:57,472 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 01:46:57,881 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 01:46:57,886 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:47:00,744 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:47:00,745 | Выбор монеты по кнопке | ripple
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:47:01,568 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:47:01,568 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 01:49:10,490 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 01:49:12,678 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 01:49:13,111 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 01:49:13,115 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:49:15,072 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.portfolio_handlers | 2025-08-15 01:49:15,073 | Выбор монеты по кнопке | bitcoin
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:49:15,849 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 01:49:15,849 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 02:01:08,116 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 02:01:10,296 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 02:01:10,719 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 02:01:10,725 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:39,132 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:39,362 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:39,362 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:41,169 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:41,346 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:41,346 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:42,344 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 02:01:42,352 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 02:01:42,722 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:42,851 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:42,852 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:44,615 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:45,160 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:01:45,161 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 02:19:57,072 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 02:19:59,109 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 02:19:59,536 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 02:19:59,540 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:19,728 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:19,931 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:19,931 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:21,067 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:21,248 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:21,248 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:22,368 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 02:20:22,381 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 02:20:22,881 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:23,063 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:23,063 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:24,485 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:24,982 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:24,982 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:33,872 | Before handler | State: SearchCoins:coins_amount
+ERROR | bot_logger.middleware.middleware | 2025-08-15 02:20:34,041 | Middleware error: 'Message' object has no attribute 'data'
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:20:34,041 | Session closed
+INFO | bot_logger.__main__ | 2025-08-15 02:21:19,819 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-15 02:21:22,066 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-15 02:21:22,493 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-15 02:21:22,499 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:24,814 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 02:21:24,822 | Текущая валюта EUR | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 02:21:25,199 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:25,404 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:25,405 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:27,763 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:28,415 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:28,415 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:33,386 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.db.crud | 2025-08-15 02:21:33,462 | Монета bitcoin в количестве 0.5 успешно сохранена!
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:33,524 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:21:33,524 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:08,141 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:08,574 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:08,574 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:14,657 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.db.crud | 2025-08-15 02:22:14,746 | Монета ethereum в количестве 1.0 успешно сохранена!
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:14,815 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:14,816 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:45,056 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:45,234 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:45,234 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:46,883 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:47,033 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:47,033 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:49,573 | Before handler | State: None
+INFO | bot_logger.handlers.custom_handlers.settings_handlers | 2025-08-15 02:22:49,576 | Изменение валюты на RUB
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:49,813 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:49,814 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:54,216 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:54,326 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:54,326 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:55,402 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-15 02:22:55,407 | Текущая валюта RUB | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-15 02:22:55,699 | Отправлен API запрос на получение 10 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:55,831 | After handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:55,831 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:58,766 | Before handler | State: SearchCoins:search_coins
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:59,503 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:22:59,504 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:23:03,461 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.db.crud | 2025-08-15 02:23:03,537 | Монета tron в количестве 2.0 успешно сохранена!
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:23:03,617 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:23:03,617 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:16,447 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:16,583 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:16,583 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:26,589 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:26,702 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:26,702 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:28,380 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:28,594 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:28,594 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:29,237 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:29,468 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:29,468 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:36,412 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:36,666 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:36,666 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:45,978 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:46,094 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-15 02:47:46,094 | Session closed

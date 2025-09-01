@@ -1,0 +1,274 @@
+DEBUG | bot_logger.config.bot_config | 2025-08-26 16:10:40,096 | env file variables loaded
+DEBUG | bot_logger.config.bot_config | 2025-08-26 16:14:35,156 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 16:14:35,318 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 16:14:35,320 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:14:58,368 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-26 16:14:58,374 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:14:58,780 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:14:58,780 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:04,924 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:05,583 | After handler | State: AnalysisCoin:search_coin_for_analys
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:05,583 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:08,403 | Before handler | State: AnalysisCoin:search_coin_for_analys
+INFO | bot_logger.services.portfolio_service | 2025-08-26 16:15:08,405 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 16:15:09,017 | Отправлен API запрос на получение 12 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:10,041 | After handler | State: AnalysisCoin:search_coin_for_analys
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 16:15:10,041 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 16:28:06,786 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 16:28:12,113 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 16:28:12,266 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 16:28:12,268 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-26 16:43:51,854 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 20:57:52,573 | env file variables loaded
+DEBUG | bot_logger.config.bot_config | 2025-08-26 20:58:08,362 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 20:58:08,529 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 20:58:08,531 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:18,694 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-26 20:58:18,700 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:19,476 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:19,477 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:20,948 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 20:58:20,950 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 20:58:21,970 | Отправлен API запрос на получение 12 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:22,380 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:22,380 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:25,044 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:25,454 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:25,454 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:26,383 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:26,721 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 20:58:26,721 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:15:43,594 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:15:44,771 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:15:44,935 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:15:44,937 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-26 21:16:24,614 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:16:25,700 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:16:25,860 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:16:25,862 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:21:18,597 | Before handler | State: None
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:21:18,598 | Middleware error: show_portfolio() missing 1 required positional argument: 'tg_id'
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:21:18,598 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:22:57,202 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:22:58,381 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:22:58,541 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:22:58,543 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:23:00,592 | Before handler | State: None
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:23:00,593 | Middleware error: Textual SQL expression 'Select coin_id, amount FR...' should be explicitly declared as text('Select coin_id, amount FR...')
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:23:00,593 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:27:40,339 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:27:41,398 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:27:41,552 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:27:41,554 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:28:23,573 | Before handler | State: None
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:28:23,575 | Middleware error: List argument must consist only of dictionaries
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:28:23,575 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:29:21,416 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:29:22,593 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:29:22,759 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:29:22,760 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:24,811 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:29:24,817 | Баланс пользователя []
+INFO | bot_logger.db.crud | 2025-08-26 21:29:24,818 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:25,473 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:25,473 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:27,473 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:27,859 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:29:27,859 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:19,136 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:37:19,138 | Баланс пользователя []
+INFO | bot_logger.db.crud | 2025-08-26 21:37:19,139 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:19,343 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:19,344 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:27,643 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 21:37:27,645 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 21:37:28,555 | Отправлен API запрос на получение 12 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:28,966 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:28,966 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:30,494 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:32,169 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:32,169 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:35,111 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:36,544 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:36,544 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:43,712 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.db.crud | 2025-08-26 21:37:43,932 | Монета bitcoin в количестве 200.0 успешно сохранена!
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:44,121 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:37:44,121 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:01,250 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:01,839 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:01,839 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:03,167 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 21:38:03,169 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 21:38:03,780 | Отправлен API запрос на получение 12 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:04,237 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:04,237 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:05,221 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:08,252 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:08,252 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:09,784 | Before handler | State: None
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:38:10,334 | Middleware error: 'tether'
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:10,334 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:24,054 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:24,463 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:24,463 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:26,731 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 21:38:26,732 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 21:38:28,436 | Отправлен API запрос на получение 12 топовых монет
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:38:28,436 | Middleware error: string indices must be integers, not 'str'
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:28,436 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:35,733 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:36,136 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:36,136 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:37,570 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:37,774 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:37,775 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:39,004 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 21:38:39,006 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 21:38:39,550 | Отправлен API запрос на получение 12 топовых монет
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:38:39,551 | Middleware error: string indices must be integers, not 'str'
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:38:39,551 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:40:00,623 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:40:01,880 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:40:02,065 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:40:02,067 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:07,602 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:40:07,608 | Баланс пользователя [('bitcoin', 200.0)]
+INFO | bot_logger.db.crud | 2025-08-26 21:40:07,609 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:08,049 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:08,049 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:09,526 | Before handler | State: None
+INFO | bot_logger.services.portfolio_service | 2025-08-26 21:40:09,528 | Текущая валюта USD | portfolio_add_coins
+INFO | bot_logger.api.coingecko_api | 2025-08-26 21:40:10,547 | Отправлен API запрос на получение 12 топовых монет
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:10,947 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:10,947 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:11,983 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:14,029 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:14,029 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:14,852 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:18,333 | After handler | State: SearchCoins:coins_amount
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:18,333 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:21,609 | Before handler | State: SearchCoins:coins_amount
+INFO | bot_logger.db.crud | 2025-08-26 21:40:21,787 | Монета tether в количестве 90.0 успешно сохранена!
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:21,928 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:21,928 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:52,940 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:53,145 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:40:53,145 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:41:56,960 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:41:58,239 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:41:58,414 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:41:58,416 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:00,731 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:01,539 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:01,539 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:04,283 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:04,668 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:42:04,668 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:44:28,225 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:44:29,466 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:44:29,641 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:44:29,644 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-26 21:45:01,608 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:45:02,852 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:45:03,018 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:45:03,020 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:45:10,028 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:45:10,414 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:45:10,414 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:45:11,513 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:45:11,519 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:45:11,808 | Middleware error: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:45:11,808 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:48:29,772 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:48:30,860 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:48:31,013 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:48:31,015 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:48:37,839 | Before handler | State: None
+INFO | bot_logger.db.crud | 2025-08-26 21:48:37,845 | Пользователь уже существует | get_or_create_user()
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:48:38,453 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:48:38,454 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:48:39,602 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:48:39,604 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+ERROR | bot_logger.middleware.middleware | 2025-08-26 21:48:39,782 | Middleware error: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=[('bitcoin', 200.0), ('tether', 90.0)], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:48:39,782 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 21:49:06,893 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 21:49:07,963 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 21:49:08,121 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 21:49:08,122 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:49:11,366 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 21:49:11,372 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:49:12,448 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 21:49:12,448 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:17:06,254 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:17:07,390 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:17:07,542 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:17:07,544 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-26 23:17:30,689 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:17:31,822 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:17:31,975 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:17:31,977 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:17:48,511 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:17:49,171 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:17:49,171 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:17:50,401 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:17:50,407 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+ERROR | bot_logger.middleware.middleware | 2025-08-26 23:17:50,407 | Middleware error: change_or_get_currency() missing 1 required positional argument: 'session'
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:17:50,407 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:18:12,072 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:18:13,135 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:18:13,289 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:18:13,291 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:19:49,253 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:19:49,258 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+ERROR | bot_logger.middleware.middleware | 2025-08-26 23:19:49,259 | Middleware error: Invalid variable type: value should be str, int or float, got <coroutine object change_or_get_currency at 0x7dde637d6790> of type <class 'coroutine'>
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:19:49,259 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:20:04,842 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:20:06,008 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:20:06,169 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:20:06,171 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:20:09,500 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:20:09,505 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+ERROR | bot_logger.middleware.middleware | 2025-08-26 23:20:09,505 | Middleware error: Invalid variable type: value should be str, int or float, got <coroutine object change_or_get_currency at 0x7809d4cbf890> of type <class 'coroutine'>
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:20:09,505 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:21:52,310 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:21:53,359 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:21:53,513 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:21:53,515 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:20,167 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:22:20,172 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:25,287 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:25,287 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:22:45,947 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:22:47,120 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:22:47,273 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:22:47,275 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:49,821 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:50,689 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:50,701 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:51,709 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:22:51,715 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:52,956 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:22:52,956 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:38:26,546 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:38:27,659 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:38:27,817 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:38:27,819 | Создание бд
+INFO | bot_logger.__main__ | 2025-08-26 23:38:40,849 | Bot stopped
+DEBUG | bot_logger.config.bot_config | 2025-08-26 23:38:41,942 | env file variables loaded
+INFO | bot_logger.__main__ | 2025-08-26 23:38:42,100 | Bot starts working
+DEBUG | bot_logger.db.init_db | 2025-08-26 23:38:42,102 | Создание бд
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:45,100 | Before handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:46,122 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:46,122 | Session closed
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:47,561 | Before handler | State: None
+DEBUG | bot_logger.db.crud | 2025-08-26 23:38:47,566 | Баланс пользователя [('bitcoin', 200.0), ('tether', 90.0)]
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:48,990 | After handler | State: None
+DEBUG | bot_logger.middleware.middleware | 2025-08-26 23:38:48,990 | Session closed
+INFO | bot_logger.__main__ | 2025-08-26 23:50:31,593 | Bot stopped
